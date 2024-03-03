@@ -12,14 +12,14 @@ package atm.pkginterface;
  */
 public class Deposit {
     
-    private Double depositAmnt;
+    private Double depositAmount;
 
-    public Deposit(Double depositAmnt) {
-        this.depositAmnt = depositAmnt;
+    public Deposit(Double depositAmount) {
+        this.depositAmount = depositAmount;
     }
 
-    public Double getDepositAmnt() {
-        return depositAmnt;
+    public Double getDepositAmount() {
+        return depositAmount;
     }
 
 }
