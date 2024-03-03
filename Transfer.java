@@ -12,21 +12,21 @@ package atm.pkginterface;
  */
 public class Transfer {
     
-    private Double  transferedAmnt;
+    private Double  transferedAmount;
     private String receipientID;
 
-    public Transfer(Double transferedAmnt, String receipientID) {
-        this.transferedAmnt = transferedAmnt;
+    public Transfer(Double transferedAmount, String receipientID) {
+        this.transferedAmount = transferedAmnt;
         this.receipientID =receipientID ;
     }
     
 
-    public Double getTransferedAmnt() {
+    public Double getTransferedAmount() {
         return transferedAmnt;
     }
 
-    public void setTransferedAmnt(Double transferedAmnt) {
-        this.transferedAmnt = transferedAmnt;
+    public void setTransferedAmount(Double transferedAmount) {
+        this.transferedAmount = transferedAmount;
     }
     
     
