@@ -16,13 +16,13 @@ public class Transfer {
     private String receipientID;
 
     public Transfer(Double transferedAmount, String receipientID) {
-        this.transferedAmount = transferedAmnt;
+        this.transferedAmount = transferedAmount;
         this.receipientID =receipientID ;
     }
     
 
     public Double getTransferedAmount() {
-        return transferedAmnt;
+        return transferedAmount;
     }
 
     public void setTransferedAmount(Double transferedAmount) {
